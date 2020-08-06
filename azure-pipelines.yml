@@ -6,7 +6,7 @@ variables:
     value: 'containerRegistryConnection' # make sure it matches the name you used in the service connection
   
   - name: acrEndpoint
-    value: 'aksacrharvey.azurecr.io' # replace with container registry endpoint
+    value: 'aksacrharvey.azurecr.io/captureorder:cm3' # replace with container registry endpoint
 
   - name: tag
     value: '$(Build.BuildId)'
